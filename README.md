@@ -1,1 +1,1 @@
-* Sistema de envio de cartas 
+* Sistema de envio de cartas para nin@s. 
