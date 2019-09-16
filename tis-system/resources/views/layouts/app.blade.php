@@ -10,5 +10,14 @@
     <body>
         @include('inc.navbar')
         @yield('content')
+
+        <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
+        <script>
+            CKEDITOR.replace( 'article-ckeditor',
+                {
+                    language: 'es'
+                }
+            );
+        </script>
     </body>
 </html>

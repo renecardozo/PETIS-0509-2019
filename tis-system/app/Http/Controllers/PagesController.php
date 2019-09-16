@@ -16,11 +16,11 @@ class PagesController extends Controller
         return view('pages.about')->with('title_about', $title_about);
     }
 
-    public function services() {
+    public function post() {
         $data = array(
             'title' => 'Welcome to services page',
             'services' => ['Web Design', 'Programing', 'SEO']
         );
-        return view('pages.services')->with($data);
+        return view('pages.post')->with($data);
     }
 }
